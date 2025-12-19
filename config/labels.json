@@ -1,0 +1,127 @@
+{
+  "label_taxonomy": {
+    "categories": [
+      {
+        "name": "Legal Technology",
+        "labels": [
+          "legal-tech",
+          "court-automation",
+          "federal-litigation",
+          "public-advocacy",
+          "case-1fdv-23-0001009",
+          "hawaii-family-court",
+          "jefs-integration"
+        ],
+        "color": "#a29bfe"
+      },
+      {
+        "name": "MCP Infrastructure",
+        "labels": [
+          "mcp-infrastructure",
+          "api-connectors",
+          "smithery",
+          "multi-cloud",
+          "security",
+          "mcp-server"
+        ],
+        "color": "#95e1d3"
+      },
+      {
+        "name": "Memory & Intelligence",
+        "labels": [
+          "memory-systems",
+          "neo4j",
+          "supermemory",
+          "mem0",
+          "graph-memory",
+          "universal-memory",
+          "15-agent-diamond"
+        ],
+        "color": "#4ecdc4"
+      },
+      {
+        "name": "Aspen Grove",
+        "labels": [
+          "aspen-grove",
+          "agent-swarm",
+          "memory-constellation",
+          "constitutional-warfare",
+          "quantum-intelligence",
+          "400k-agents"
+        ],
+        "color": "#ff6b6b"
+      },
+      {
+        "name": "Forensic & Security",
+        "labels": [
+          "forensic",
+          "evidence-handling",
+          "chain-of-custody",
+          "federal-compliance",
+          "device-repair",
+          "gpg-signed"
+        ],
+        "color": "#fd79a8"
+      },
+      {
+        "name": "AI Automation",
+        "labels": [
+          "ai-automation",
+          "agent-swarms",
+          "bulk-operations",
+          "762-repo-authority",
+          "n8n",
+          "e2b",
+          "ollama"
+        ],
+        "color": "#ffd93d"
+      },
+      {
+        "name": "Document Processing",
+        "labels": [
+          "document-intelligence",
+          "whisperx",
+          "transcription",
+          "pdf-processing",
+          "ai-documents",
+          "5-platform"
+        ],
+        "color": "#6c5ce7"
+      },
+      {
+        "name": "Browser Automation",
+        "labels": [
+          "browser-automation",
+          "selenium",
+          "playwright",
+          "puppeteer",
+          "perplexity",
+          "research-tools"
+        ],
+        "color": "#00b894"
+      },
+      {
+        "name": "Development Tools",
+        "labels": [
+          "dev-tools",
+          "operator-packs",
+          "deployment",
+          "memory-first-architecture",
+          "goose-integration"
+        ],
+        "color": "#0984e3"
+      },
+      {
+        "name": "Specialized Tools",
+        "labels": [
+          "specialized-tools",
+          "voice-ai",
+          "performance-optimization",
+          "quant-finance",
+          "file-management"
+        ],
+        "color": "#fab1a0"
+      }
+    ]
+  }
+}
