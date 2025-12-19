@@ -1,0 +1,65 @@
+{
+  "expansion_strategy": "hybrid",
+  "total_projects": 15,
+  "strategic_projects": 10,
+  "tactical_projects": 5,
+  "additional_projects": [
+    {
+      "id": 11,
+      "name": "🔬 AI/ML Research Arsenal",
+      "description": "Machine learning experimentation, model development, and AI research infrastructure",
+      "repo_count": 120,
+      "status_columns": ["Research", "Development", "Testing", "Published"],
+      "labels": ["ai-research", "machine-learning", "models", "deep-learning"],
+      "priority": "high"
+    },
+    {
+      "id": 12,
+      "name": "🏗️ Infrastructure Command Center",
+      "description": "DevOps, deployment automation, and infrastructure as code",
+      "repo_count": 80,
+      "status_columns": ["Planning", "Development", "Staging", "Production"],
+      "labels": ["infrastructure", "devops", "ci-cd", "deployment"],
+      "priority": "high"
+    },
+    {
+      "id": 13,
+      "name": "🗄️ Data Management Platform",
+      "description": "File systems, data processing, and storage solutions",
+      "repo_count": 60,
+      "status_columns": ["Design", "Implementation", "Optimization", "Production"],
+      "labels": ["data-management", "file-systems", "storage", "processing"],
+      "priority": "medium"
+    },
+    {
+      "id": 14,
+      "name": "🧪 R&D Laboratory",
+      "description": "Experiments, prototypes, and proof-of-concepts",
+      "repo_count": 104,
+      "status_columns": ["Concept", "Experiment", "Evaluate", "Archive/Promote"],
+      "labels": ["experimental", "prototype", "poc", "research"],
+      "priority": "medium"
+    },
+    {
+      "id": 15,
+      "name": "📦 Archive Vault",
+      "description": "Legacy projects, deprecated code, and historical reference",
+      "repo_count": 315,
+      "status_columns": ["Active", "Maintenance", "Deprecated", "Archived"],
+      "labels": ["archive", "legacy", "deprecated", "historical"],
+      "priority": "low"
+    }
+  ],
+  "repository_distribution": {
+    "strategic_projects": 83,
+    "tactical_projects": 364,
+    "archive": 315,
+    "total": 762
+  },
+  "implementation_notes": {
+    "approach": "hybrid",
+    "rationale": "Balances organization granularity with manageability. Focuses on active development categories while consolidating experimental work.",
+    "timeline": "1-2 weeks",
+    "automation_level": "85%"
+  }
+}
