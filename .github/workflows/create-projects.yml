@@ -1,0 +1,40 @@
+name: 🚀 Create GitHub Projects
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirm:
+        description: 'Type YES to create all 10 projects'
+        required: true
+        default: 'NO'
+
+jobs:
+  create-projects:
+    name: Create All 10 Projects
+    runs-on: ubuntu-latest
+    if: github.event.inputs.confirm == 'YES'
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup GitHub CLI
+        run: |
+          gh auth setup-git
+      
+      - name: Make scripts executable
+        run: |
+          chmod +x scripts/*.sh
+      
+      - name: Create all projects
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          ./scripts/graphql-create-projects.sh
+      
+      - name: Summary
+        run: |
+          echo "## ✅ Project Creation Complete" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "All 10 GitHub Projects have been created!" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "View them at: https://github.com/GlacierEQ?tab=projects" >> $GITHUB_STEP_SUMMARY
